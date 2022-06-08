@@ -88,11 +88,22 @@ section {
 
 .accordion-button {
     background: #ffc6c7;
-    /*border: none;*/
 }
 
 .accordion-button:not(.collapsed) {
     background: #ff8ba7;
     color: white;
 
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion {
+    --bs-accordion-border-color: none;
+}
+
+.col .accordion-item:not(:last-child) {
+    border-bottom: 1px solid black;
 }
