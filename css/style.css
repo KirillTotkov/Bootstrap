@@ -1,0 +1,98 @@
+@font-face {
+    font-family: GothamPro;
+    src: url("../fonts/GothamPro.woff2")
+}
+
+body {
+    font-family: "Gotham Pro", "Arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #33272a;
+}
+
+.bg_color1 {
+    background-color: #faeee7;
+}
+
+.bg_color2 {
+    background-color: #fffffe;
+}
+
+
+.navbar {
+    background-color: #faeee7;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h1 {
+    color: #33272a;
+    font-size: 3.5rem;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 3rem;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+section {
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+.card {
+    background-color: #faeee7;
+}
+
+.card-title {
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #ff6e6c;
+    color: #1f1235;
+    padding: 8px 35px;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0 5px 15px -10px rgba(31, 18, 53, 0.6);
+    -webkit-transform: translate(0px, -3px);
+    -ms-transform: translate(0px, -3px);
+    transform: translate(0px, -3px);
+    color: #1f1235;
+    background-color: #ff6e6c;
+
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.card-footer {
+    background: none;
+    border-top: none;
+}
+
+.accordion-button {
+    background: #ffc6c7;
+    /*border: none;*/
+}
+
+.accordion-button:not(.collapsed) {
+    background: #ff8ba7;
+    color: white;
+
+}
